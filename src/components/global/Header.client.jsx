@@ -20,6 +20,8 @@ import {useDrawer} from './Drawer.client';
 export function Header({title, menu}) {
   const {pathname} = useUrl();
 
+  console.log(menu)
+
   const localeMatch = /^\/([a-z]{2})(\/|$)/i.exec(pathname);
   const countryCode = localeMatch ? localeMatch[1] : undefined;
 

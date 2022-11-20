@@ -26,7 +26,7 @@ export function CartLineItem() {
             scale: 2,
             crop: 'center',
           }}
-          className="object-cover object-center w-24 h-24 border rounded md:w-28 md:h-28"
+          className="object-cover object-center w-full h-full border rounded"
         />
       </div>
 

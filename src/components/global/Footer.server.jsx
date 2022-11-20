@@ -35,10 +35,9 @@ export function Footer({menu}) {
         <CountrySelector />
       </section>
       <div
-        className={`self-end pt-8 opacity-50 md:col-span-2 lg:col-span-${itemsCount}`}
+        className={`self-end pt-8 text-sm opacity-50 md:col-span-2 lg:col-span-${itemsCount}`}
       >
-        &copy; {new Date().getFullYear()} / Shopify, Inc. Hydrogen is an MIT
-        Licensed Open Source project. This website is carbon&nbsp;neutral.
+        &copy; {new Date().getFullYear()} / All right reserved
       </div>
     </Section>
   );
